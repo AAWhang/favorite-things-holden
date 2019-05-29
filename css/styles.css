@@ -18,3 +18,18 @@ ul {
   font-size: 20px;
   line-height: 30px;
 }
+
+.blinking{
+    animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: red;    }
+    25%{    color: orange; }
+    50%{    color: yellow; }
+    75%{    color: green;  }
+    100%{   color: blue;    }
+}
+
+.circleimg{
+  border-radius: 50%;
+}
